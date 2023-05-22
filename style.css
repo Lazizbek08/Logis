@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0PX;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(https://bootstrapmade.com/demo/templates/Logis/assets/img/hero-bg.png);
+    background-size: cover;
+    background-color: #0e1d34;
+}
+nav{
+    width: 90%;
+    height: 10vh;
+    /* background-color: coral; */
+    margin: auto;
+    padding-top: 30px;
+}
+.navdiv1{
+    width: 20%;
+    height: 10vh;
+    /* background-color: crimson; */
+    display: inline-block;
+}
+.navdiv2{
+    width: 60%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.navdiv2>ul{
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.navdiv2>ul>li{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+.navdiv2>ul>li>a{
+    color: grey;
+}
+.navdiv2>ul>li:nth-child(1)>a{
+    color: white;
+}
+.navdiv1>a{
+    margin-top: 15px;
+    position: absolute;
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+}
+a{
+  text-decoration: none;  
+}
+.navdiv2>button{
+    width: 140px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+.headerdiv1{
+    width: 90%;
+   
+    background-color: aqua;
+    margin: auto;
+}
+.headerdiv11{
+    width: calc(45% - 5px);
+    height: 80vh;
+    display: inline-block;
+}
+.headerdiv12{
+    width: calc(50%);
+    height: 80vh;
+    background: url(https://bootstrapmade.com/demo/templates/Logis/assets/img/hero-img.svg);
+    display: inline-block;
+    background-size: cover;
+}
+.inputDiv{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inputDiv>input:nth-child(1){
+    width: 80%;
+    height: 90px;
+    border: none; 
+    outline: none;
+    font-size: 15pt;
+    margin-left: 20px;
+}
+.inputDiv>input:nth-child(1)::placeholder{
+    position: absolute;
+    margin-left: 20px;
+    font-size: 15pt;
+    margin-top: 35px;
+}
+.inputDiv>input:nth-child(2){
+    width: calc(20% - 30px);
+    height: 70px;
+    background-color: blue;
+   
+    border-radius: 10px;
+    color: white;
+
+}
+.partfour{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(255, 0, 195);
+}
+.partfourdiv1{
+    width: 24%;
+    height: 25vh;
+    background-color: blueviolet;
+    display: inline-block;
+}
+.headerdiv11>h1,p,div{
+    margin-top: 20px;
+}
+.headerdiv11{
+    position: absolute;
+}
+.headerdiv12{
+    float: right;
+}
+.headerdiv11>h1,p{
+    color: white;
+}
+.partfourdiv1{
+    text-align: center;
+}
+.partfourdiv1>hr{
+    width: 30px;
+    margin-left: 60px;
+    color:gray;
+    background-color:gray
+}
